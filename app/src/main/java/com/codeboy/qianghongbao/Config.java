@@ -39,6 +39,7 @@ public class Config {
 
     public static final int WX_AFTER_GET_GOHOME = 0; //返回桌面
     public static final int WX_AFTER_GET_NONE = 1;
+    public static final int WX_AFTER_GET_DOUBLE_BACK = 1;
 
     public static final int WX_MODE_0 = 0;//自动抢
     public static final int WX_MODE_1 = 1;//抢单聊红包,群聊红包只通知

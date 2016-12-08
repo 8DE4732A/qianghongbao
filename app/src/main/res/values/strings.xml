@@ -15,8 +15,8 @@
     <string name="wechat_settings">微信设置</string>
     <string name="notify_settings">红包提醒设置</string>
 
-    <string name="follow_preference_title">关注codeboy微信</string>
-    <string name="follow_preference_summary">了解我最新的开源资讯动态</string>
+    <string name="follow_preference_title">fork me</string>
+    <string name="follow_preference_summary">github.com</string>
 
     <string name="donate_title">打赏开发者</string>
     <string name="donate_summary">如果这份源码能帮到你，可以打赏我哦</string>
@@ -27,6 +27,7 @@
 
     <string name="after_get_back_home">返回桌面</string>
     <string name="after_get_none">静静地看着</string>
+    <string name="after_get_double_back">点击两次返回</string>
 
     <string name="wx_mode_0">自动抢</string>
     <string name="wx_mode_1">抢单聊红包，群聊红包只通知</string>
@@ -40,6 +41,6 @@
     <string name="agreement_message">本软件仅供学习使用，完全模拟人工操作，抢红包速度取决于你手机的性能与网络，不涉及任何第三方软件接口，本软件已开放源代码，无病毒、不收集用户隐私信息，禁止使用本软件参与赌博活动。一切因使用“%1$s”造成的任何后果，%1$s概不负责，亦不承担任何法律责任!</string>
 
     <string name="qr_wx_id">happycodeboy</string>
-    <string name="qr_tips">点击复制微信号:happycodeboy</string>
+    <string name="qr_tips">https://github.com/8DE4732A/qianghongbao</string>
 
 </resources>

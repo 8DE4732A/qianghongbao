@@ -234,6 +234,8 @@ public class WechatAccessbilityJob extends BaseAccessbilityJob {
             //拆完红包后看详细的纪录界面
             if(getConfig().getWechatAfterGetHongBaoEvent() == Config.WX_AFTER_GET_GOHOME) { //返回主界面，以便收到下一次的红包通知
                 AccessibilityHelper.performHome(getService());
+            } else if(getConfig().getWechatAfterGetHongBaoEvent() == Config.WX_AFTER_GET_DOUBLE_BACK) {
+                AccessibilityHelper.performDoubleBack(getService());
             }
         } else if("com.tencent.mm.ui.LauncherUI".equals(event.getClassName())) {
             mCurrentWindow = WINDOW_LAUNCHER;

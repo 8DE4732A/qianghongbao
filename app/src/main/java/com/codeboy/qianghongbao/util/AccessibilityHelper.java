@@ -118,6 +118,14 @@ public final class AccessibilityHelper {
         service.performGlobalAction(AccessibilityService.GLOBAL_ACTION_HOME);
     }
 
+    public static void performDoubleBack(AccessibilityService service) {
+        if(service == null) {
+            return;
+        }
+        service.performGlobalAction(AccessibilityService.GLOBAL_ACTION_BACK);
+        service.performGlobalAction(AccessibilityService.GLOBAL_ACTION_BACK);
+    }
+
     /** 返回事件*/
     public static void performBack(AccessibilityService service) {
         if(service == null) {

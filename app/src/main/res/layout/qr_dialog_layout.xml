@@ -3,18 +3,15 @@
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:gravity="center">
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/follow_qr"/>
+              android:gravity="center"
+    android:weightSum="1">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:textColor="@android:color/white"
-        android:textSize="14dp"
-        android:text="@string/qr_tips"/>
+        android:layout_width="345dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="16dp"
+        android:text="@string/qr_tips"
+        android:layout_weight="0.06" />
 </LinearLayout>

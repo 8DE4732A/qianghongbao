@@ -15,11 +15,13 @@
     <string-array name="wechat_after_get_settings_titles">
         <item>@string/after_get_back_home</item>
         <item>@string/after_get_none</item>
+        <item>@string/after_get_double_back</item>
     </string-array>
 
     <string-array name="wechat_after_get_settings_values">
         <item>0</item>
         <item>1</item>
+        <item>2</item>
     </string-array>
 
     <string-array name="wechat_mode_settings_title">

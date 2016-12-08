@@ -351,29 +351,6 @@ public class MainActivity extends BaseSettingsActivity {
                 }
             });
 
-            Preference preference = findPreference("KEY_FOLLOW_ME");
-            if(preference != null) {
-                preference.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
-                    @Override
-                    public boolean onPreferenceClick(Preference preference) {
-                        ((MainActivity) getActivity()).showQrDialog();
-                        QHBApplication.eventStatistics(getActivity(), "about_author");
-                        return true;
-                    }
-                });
-            }
-
-            preference = findPreference("KEY_DONATE_ME");
-            if(preference != null) {
-                preference.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
-                    @Override
-                    public boolean onPreferenceClick(Preference preference) {
-                        ((MainActivity) getActivity()).showDonateDialog();
-                        QHBApplication.eventStatistics(getActivity(), "donate");
-                        return true;
-                    }
-                });
-            }
 
             findPreference("WECHAT_SETTINGS").setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
                 @Override
